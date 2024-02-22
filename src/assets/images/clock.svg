@@ -1,0 +1,13 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="streamline:interface-time-reset-time-clock-reset-stopwatch-circle-measure-loading" clip-path="url(#clip0_149_624)">
+<g id="Group">
+<path id="Vector" d="M12 0.856934C14.2039 0.856934 16.3582 1.51045 18.1907 2.73484C20.0231 3.95924 21.4513 5.69951 22.2947 7.7356C23.1381 9.77169 23.3587 12.0122 22.9288 14.1737C22.4988 16.3352 21.4376 18.3206 19.8792 19.879C18.3209 21.4373 16.3354 22.4986 14.1739 22.9285C12.0124 23.3585 9.77195 23.1378 7.73586 22.2944C5.69976 21.4511 3.95949 20.0229 2.7351 18.1904C1.5107 16.358 0.857185 14.2036 0.857185 11.9998C0.853653 8.80775 2.08179 5.73741 4.28576 3.42836" stroke="#36363D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M0.857178 4.28537L4.28575 3.42822L5.14289 6.85679M12 5.99965V12.8568L16.4572 15.0854" stroke="#36363D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_149_624">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,64 @@
+{
+  "menuItems": [
+    {
+      "title": "법인 등기",
+      "subMenuItems": [
+        {
+          "title": "법인 검색",
+          "url": "/pocket/CorporateSearch"
+        },
+        {
+          "title": "법인 등기 관리",
+          "url": "/pocket/CorporateManagement?activeTab=2"
+        },
+        {
+          "title": "임기만료 알림",
+          "url": "/pocket/ExpirationAlarm"
+        }
+      ]
+    },
+    {
+      "title": "부동산 등기",
+      "subMenuItems": [
+        {
+          "title": "부동산 검색",
+          "url": "/pocket/RealEstateSearch"
+        },
+        {
+          "title": "부동산 등기 관리",
+          "url": "/pocket/RealEstateManagement?activeTab=2"
+        },
+        {
+          "title": "등기변동 알림",
+          "url": "/pocket/ChangeAlarm"
+        }
+      ]
+    },
+    {
+      "title": "포인트 관리",
+      "subMenuItems": [
+        {
+          "title": "포인트 관리",
+          "url": "/pocket/PointManagement"
+        }
+      ]
+    },
+    {
+      "title": "고객센터",
+      "subMenuItems": [
+        {
+          "title": "공지사항",
+          "url": "/pocket/Notice"
+        },
+        {
+          "title": "자주묻는질문",
+          "url": "/pocket/Faq"
+        },
+        {
+          "title": "문의하기",
+          "url": "/pocket/Qna"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1024px) {
+  .pocket-wrap {
+    padding: 0px;
+    .dashboard {
+      flex-direction: column;
+      > div {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .pocket-wrap {
+    .pocket {
+      &-input {
+        &-row {
+          flex-direction: column;
+          .btn-box {
+            flex-direction: column;
+          }
+          .round-btn {
+            max-width: 100%;
+            width: 100%;
+          }
+        }
+        &-box {
+          min-width: 100% !important;
+        }
+      }
+      &-contents {
+        &-header {
+          height: 0px !important;
+
+          overflow: hidden;
+        }
+        &-body {
+          padding: 15px 20px;
+          gap: 10px;
+          border: none;
+          border-radius: 0;
+          &-title {
+            font-size: 14px;
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          .expiration-state {
+            white-space: nowrap;
+            line-height: 1.2;
+            margin-top: 10px;
+            width: 100%;
+            &-box {
+              width: 100%;
+              * {
+                font-size: 12px;
+              }
+              .count {
+                font-size: 12px;
+                white-space: nowrap;
+              }
+            }
+          }
+        }
+      }
+      &-table-box {
+        // 페이지 10, 30, 50개씩 보기 버튼 없애기에 따라 주석처리
+        // .pagenation {
+        //   justify-content: flex-start;
+        // }
+        .select-box {
+          min-width: 100px !important;
+        }
+      }
+      &-tab {
+        font-size: 12px;
+        width: auto;
+        padding: 0 20px;
+      }
+    }
+    .result-container {
+      .round-btn {
+        width: auto;
+        padding: 0 20px;
+      }
+      &-search {
+        input {
+          max-width: 100%;
+        }
+        &.date {
+          .input-box {
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 10px;
+            &-title {
+              display: none;
+            }
+            input {
+              max-width: 100%;
+            }
+            .date-box {
+              max-width: 100%;
+              width: 100%;
+            }
+            .round-btn {
+              width: 100%;
+            }
+          }
+          .input-check-box-group {
+            padding-left: 10px;
+            * {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .point {
+    &-status {
+      flex-direction: column;
+      gap: 10px;
+      align-items: start;
+      .btn-box {
+        width: 100%;
+        .round-btn {
+          width: 100%;
+        }
+      }
+    }
+    &-text-box {
+      gap: 15px;
+      .user-info {
+        font-size: 12px;
+        &-box {
+          wid .user-point {
+            font-size: 14px;
+            .point {
+              font-size: 20px;
+              font-weight: 700;
+            }
+            .t-b {
+              font-weight: 700;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .col-line {
+    display: none;
+  }
+  .m-view {
+    display: block;
+  }
+  // 팝업반응형
+  .popup {
+    &-box {
+      max-width: 100% !important;
+      width: 100%;
+      * {
+        font-size: 12px;
+      }
+    }
+    &-header-title {
+      font-size: 14px;
+    }
+    &-body {
+      &-header {
+        &-left {
+          gap: 10px;
+          white-space: nowrap;
+        }
+        &-btn-box {
+          .round-btn {
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+
+  // 법인 및 부동산 등기 상세보기 반응형 처리
+  .popup-body {
+    &-header{
+      display: inline-table;
+    }
+    &-header-left{
+      display: inline-grid;
+    }
+    &-header-title{
+      white-space: normal;
+    }
+  }
+
+  .issue-mobile {
+    display: flex;
+  }
+
+  .popup-tab-table {
+    &-th {
+      max-width: 90px;
+    }
+    &-td:nth-child(3) {
+      max-width: 80px;
+    }
+  }
+
+  // 부동산 등기 상세보기 지도 버튼 처리
+  .state-fill.green {
+    max-width: 30px;
+  }
+
+  // 공지사항 상세보기 반응형 처리
+  .notice-detail-view {
+    &-header {
+      padding: 10px;
+      height: 100%;
+      flex-direction: column;
+      gap: 5px;
+      justify-content: center;
+      * {
+        font-size: 14px;
+      }
+    }
+    &-right {
+      margin-top: 10px;
+      display: inline-grid;
+      gap: 10px;
+    }
+    &-btn {
+      .round-btn {
+        width: 100%;
+      }
+    }
+  }
+
+  .pocket-table {
+    &.mo-table {
+      display: table;
+      min-width: auto;
+    }
+
+    &.pc-table {
+      display: none;
+    }
+  }
+
+  .mo-show {
+    &.round-btn {
+      margin-top: 10px;
+      width: 100% !important;
+      display: block;
+    }
+  }
+  .pc-show {
+    display: none !important;
+  }
+}

@@ -1,0 +1,546 @@
+@media(max-width: 1024px) {
+  .br-pc {
+    display: none;
+  }
+  .br-mobile {
+    display: block;
+  }
+
+  .btn-box {
+    gap: 5px;
+  }
+
+  .btn {
+    padding: 0 16px;
+    height: 36px;
+    font-size: 14px;
+
+    &:hover {
+      color: #0938BB;
+      background-color: #E9EFFF;
+      border: 1px solid #0938bb;
+    }
+
+    &.large {
+      height: 48px;
+      max-width: 124px;
+      font-size: 15px;
+    }
+  }
+
+  .sc {
+    transition: .3s ease;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    &.main-sc {
+      padding: 200px 0 0;
+      padding-right: 12.5px;
+      padding-left: 12.5px;
+    }
+  }
+
+
+  .container {
+    width: 100%;
+  }
+
+  .max-container {
+    max-width: 1280px;
+    margin: 0 auto;
+
+  }
+
+
+  .sc-title-box {
+    .sc {
+      &-main-title {
+        span {
+          font-size: 28px;
+        }
+      }
+
+      &-main-sub-title {
+        margin-bottom: 16px;
+
+        span {
+          font-size: 15px;
+        }
+      }
+
+      &-title {
+        span {
+          font-size: 28px;
+        }
+      }
+
+      &-circle-title {
+        margin-bottom: 24px;
+      }
+
+      &-sub-title {
+        margin-top: 24px;
+
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .btn-box {
+      margin-top: 24px;
+    }
+  }
+
+
+
+
+  .header {
+    height: 60px;
+    padding: 0 20px;
+
+    &-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+
+      .logo-box {
+        width: 130px;
+      }
+
+      .gnb {
+        &-ul {
+
+          display: none;
+        }
+      }
+    }
+
+    &.header-up {
+      top: -60px;
+    }
+  }
+
+
+
+  .main-sc {
+    .video-container {
+      width: 100%;
+      margin-top: 24px;
+      video{
+        min-height: 100%; 
+        min-width: 100%; 
+        height: auto !important;
+        width: auto !important; 
+      }
+      &.ani-on {
+        max-width: 100%;
+      }
+      .video-poster {
+        .video-play-btn {
+          width: 80px;
+          height: 80px;
+          border-width: 6px;
+          img {
+            width: 26px;
+          }
+        }
+      }
+    }
+
+  }
+
+
+  .service-sc {
+    .card-contents {
+      margin-top: 54px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .card-item {
+      padding: 50px 20px;
+
+      &-title {
+        font-size: 24px;
+
+        img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+
+      &-ex {
+        &-text {
+          font-size: 15px;
+          line-height: 35px;
+        }
+      }
+
+      &-row {
+        display: flex;
+        gap: 5px;
+      }
+    }
+  }
+
+  .why-sc {
+    .sc-title-box {
+      align-items: flex-start;
+      margin-bottom: 54px;
+    }
+
+    .col-line {
+      display: none;
+    }
+
+    .why {
+      &-item {
+        &-sub-title {
+          align-items: flex-start;
+        }
+
+        &-title {
+          span {
+            font-size: 24px;
+          }
+        }
+
+        &-title-ex {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 5px;
+
+          &-text {
+            line-height: 29px;
+            font-size: 15px;
+            text-align: center;
+          }
+        }
+
+        &-img-box {
+          // flex-direction: column;
+          gap: 20px;
+
+        }
+      }
+    }
+
+    .card {
+      &-item {
+        flex-direction: column;
+        padding: 40px 24px;
+        .card-item-title-box {
+          margin-bottom: 40px;
+        }
+        &-title {
+          justify-content: center;
+          margin-bottom: 24px;
+          img {
+            margin-right: 14px;
+          }
+          .card-item-main-title {
+            font-size: 22px;
+          }
+          &-highlight {
+            &:after {
+              height: 11px;
+            }
+          }
+          &-text {
+            font-size: 18px;
+          }
+        }
+        &-table {
+          width: 272px;
+          height: 361px;
+          .penalty-period {
+            &-header {
+              height: 47px;
+            }
+            &-heading {
+              height: 47px;
+              font-size: 16px;
+            } 
+            &-data {
+              height: 44px;
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .partners-sc {
+    padding: 100px 0;
+    .logo-box {
+      width: 85vw;
+      margin: 0 auto;
+      &-wrap {
+        flex-direction: column;
+        &:last-child {
+          .logo-box-row:first-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+      &-divider {
+        margin: 44px 0 64px;
+      }
+      &-title {
+        margin: 0 0 20px 0;
+      }
+      &-row {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        .logo-image {
+          width: calc(100% / 2 - 20px);
+          height: 92px;
+          margin: 0 10px 20px;
+        }
+        .heyan-logo-image {
+          height: 60%;
+        }
+        .buddy-logo-image, .taxcube-logo-image {
+          height: auto;
+        }
+        .maycommerce-logo-image, .haevah-logo-image {
+          width: 80%;
+        }
+        .maymerce-logo-image {
+          width: 64%;
+        }
+      }
+    }
+  }
+
+  .review-sc {
+    .review-contents {
+      &.pc {
+        position: fixed;
+        left: 100%;
+        opacity: 0;
+      }
+
+      &.mobile {
+        display: block;
+      }
+
+      .review-row-box {
+        .review-writer {
+          .name {
+            flex: 1;
+          }
+        }
+        .review-text {
+          height: auto;
+          // -webkit-line-clamp: 5;
+          // -webkit-box-orient: vertical;
+          // overflow: hidden;
+          // display: -webkit-box;
+        }
+      }
+    }
+  }
+
+
+  .qna-sc {
+    background-color: #EAF6FE;
+
+    .sc-title-box {
+      margin-bottom: 54px;
+    }
+
+    .qna-title {
+      span {
+        font-size: 28px;
+
+      }
+    }
+
+    .qna {
+      &-li {
+        padding: 30px 15px;
+
+        &-q {
+          position: relative;
+          font-size: 20px;
+          padding: 0 30px 0 25px;
+
+          > img {
+            position: absolute;
+            left: 0;
+            top: 3px;
+          }
+
+          .open-btn {
+            transform: rotate(90deg);
+          }
+        }
+
+        &-a {
+          &-text {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    padding: 30px 20px 40px;
+    font-size: 14px;
+
+    &-top {
+      padding-bottom: 12px;
+      flex-direction: column;
+      align-items: start;
+
+      .logo {
+        width: 104px;
+        margin-bottom: 24px;
+      }
+
+      .terms {
+        display: flex;
+        gap: 24px;
+      }
+    }
+
+    &-bottom {
+      padding-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      &-row {
+        align-items: start;
+        flex-direction: column;
+        gap: 8px;
+
+        &-box {
+          gap: 5px;
+        }
+      }
+
+      .copyright {
+        margin-top: 8px;
+      }
+
+      .more-site {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        margin-top: 32px;
+      }
+    }
+
+    .pc-show {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  .service-sc .card-contents {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-sc .card-item:nth-child(-n+2) {
+    grid-column: span 1;
+  }
+
+  .why-sc .why-item-img-box {
+    flex-direction: column;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  // 모바일 로그인
+  .login {
+    width: 100%;
+    padding: 105px 20px 0 !important;
+
+
+    .contents {
+      &-title {
+        font-size: 14px;
+        gap: 5px;
+
+        &-box {
+          margin-bottom: 30px;
+        }
+      }
+
+      &-sub-title {
+        font-size: 24px;
+      }
+
+      &-text {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .info-form {
+    width: 100%;
+    padding: 30px 25px;
+    gap: 15px;
+
+    .input {
+      &-box {
+        gap: 5px;
+
+        input {
+          height: 48px;
+          font-size: 14px;
+        }
+      }
+
+      &-title {
+        font-size: 13px;
+      }
+
+      &::after {
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 13px;
+        padding-left: 18px;
+        background-size: 14px;
+        background-position: 0;
+
+      }
+    }
+
+    .form-btn-box {
+      display: flex;
+      margin-top: 15px;
+      flex-direction: column;
+
+      .form-btn {
+        flex: 1;
+        line-height: 50px;
+        height: 50px;
+        border-radius: 8px;
+
+        &.grey {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .pocket-table-box 
+  .pocket-table td { 
+    min-width: 80px;
+  } 
+
+}
+
